@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+    width: 1140px;
+    height: 100vh;
+}
+
+.maison{
+    height:100%;
+    width: 127%;
+    background-color: black;
+}
+
+/*
+.barre1{
+    height: 60%;
+    width: 15%;
+    background-color: white;
+    float: left;
+    margin-top: 10rem;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.barre2{
+    height: 60%;
+    width: 15%;
+    background-color: white;
+    float: right;
+    margin-top: 10rem;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}*/
+
+.bloc{
+    height: 20rem;
+    width: 50rem;
+    background-color: aqua;
+
+}
+
+.blocform{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.connexion{
+    height: 2rem;
+    width: 10rem;
+    background-color: azure;
+    display:flex;
+    
+}
+
+.input{
+    height: 2rem;
+    width: 10rem;
+    background-color: blue;
+ 
+}

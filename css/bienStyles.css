@@ -1,0 +1,15 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.maison{
+    height: 2rem;
+    width: 2rem;
+    background-color: aqua;
+}
