@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:768px){
+    body{
+        background-color:rgb(67, 53, 53); 
+        width: 100%;   
+    }
+
+    .video{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+        height: 200px;
+        width: 200px;
+    }
+
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px)  {
+    
+    body{
+        width: 100%;
+        background-color:rgb(67, 53, 53); 
+    }
+    
+}
+
+
+@media screen and (min-width:1024px)
+{
+    
+    
+    body{
+        background-color:rgb(67, 53, 53); 
+        width: 100%;
+       
+    }
+    
+    
+    
+    /*header*/
+    
+    header{
+        height: 7rem;
+        width: 100%;
+        background-color:black;
+    }
+
+   header .play img{
+    margin-left: 20rem;
+    margin-top: 1rem;
+   }
+
+   header .lecteur{
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+
+   }
+    
+    .barre{
+        float: right;
+        height: 1550px;
+        width:17%;
+        background-color: black;
+        
+    }
+    
+    .barre .icone{
+        height: 6.5%;
+        width: 40%;
+        background-color: bisque;
+        margin-top: 10%;
+        margin-left: 18%;
+        border-radius: 100%; 
+    }
+    
+    .barre .icone img{
+        border-radius: 100%; 
+    }
+    
+    .blanc{
+        text-align: justify;
+        margin-top: 10%;
+        margin-left: 20%;
+        font-size: 25px;
+    }
+    .barre .blanc a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .blanc a:hover{
+        color: black;
+    }
+    
+    .barre .commentaire{
+        font-size:14px;
+        margin-top: 10%;
+        margin-left: 5%;
+        color: white;
+    }
+    
+    .button{
+        border: none;
+        height: 1rem;
+        width: 4rem;
+        border-radius: 100px;
+        padding-bottom: 1rem;
+        border-radius: 10px;
+    }
+    
+    .button:hover{
+        box-shadow: 1px 1px 14px;
+        background-color: blue;
+        color: red;
+    }
+    
+    .video{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    
+    .video1{
+        animation: anime1 12s infinite;
+    }
+    
+    @keyframes anime1 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+    
+    
+    
+    .video2{
+        animation: anime2 11s infinite;
+    }
+    
+    @keyframes anime2 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+    
+    .video3{
+        animation: anime2 10s infinite;
+    }
+    
+    @keyframes anime3 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+
+
+   
+
+    .ecrit{
+        padding-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .recherche img{
+        float: right;
+        margin-top: -20px;
+        margin-right: 1rem;
+    }
+    video{
+        margin-top: 3rem;
+        margin-left: 2.3rem;
+    }
+
+    form .rond .input{
+        border:none;
+        height: 3rem;
+        width: 35rem;
+        background-color: gray;
+        border: 1px solid black;
+        margin-top: 3.5rem;
+        margin-left: 2rem;
+        border-radius: 50px;
+    }
+
+    .aime{
+        display: flex;
+        margin-left: 2.5rem;
+        margin-top: 1rem;
+        
+    }
+    .aime .aime-1{
+        border: none;
+        height: 2rem;
+        width: 8rem;
+        background-color: gray;
+        margin-right: 2rem;
+        border-radius: 50px;
+        
+    }
+
+    .aime .partager{
+        border: none;
+        height: 2rem;
+        width: 8rem;
+        background-color: gray;
+        margin-right: 2rem;
+        border-radius: 50px;
+        
+    }
+
+    .aime .enregister{
+        border: none;
+        height: 2rem;
+        width: 8rem;
+        background-color: gray;
+        margin-right: 2rem;
+        border-radius: 50px;
+        
+    }
+
+
+    .aime .abonner{
+        border: none;
+        height: 2rem;
+        width: 8rem;
+        background-color: gray;
+        margin-right: 2rem;
+        border-radius: 50px;
+        margin-left: 7rem;
+        
+    }
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
