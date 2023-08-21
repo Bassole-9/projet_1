@@ -5,8 +5,10 @@
 }
 @media screen and (max-width:768px){
     body{
-        background-color:rgb(67, 53, 53); 
-        width: 100%;   
+        background-color:black; 
+        width: 100%;
+       padding-bottom: 12rem;
+        
     }
 
     .video{
@@ -18,6 +20,231 @@
     }
 
 
+    .video{
+        display:;
+    }
+
+    .barre .icone{
+        display: none;
+    }
+
+    .barre .commentaire{
+        display: none;
+    }
+
+    .blanc-1{
+        display:none;
+    }
+
+    .blanc a:hover{
+        color: grey;
+    }
+
+    header{
+        height: 4rem;
+        width: 100%;
+        background-color:rgb(51, 50, 50);
+        top:0px;
+        position: fixed;
+    }
+
+    .rech{
+        position: fixed;
+        top: 3.9rem;
+        width: 7rem;
+    }
+    .rech input{
+        width: 48rem;
+        height: 2rem;
+        padding-bottom: .5rem;
+    }
+
+
+    video{
+        position: fixed;
+        top: 5.5rem;
+        width: 100%;
+    }
+    header .play img{
+        margin-left: 1rem;
+        margin-top: 1rem;
+       }
+    
+       header .lecteur{
+        color: brown;
+        font-weight: bold;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        
+       }
+
+       .blanc{
+        display: flex;
+         font-size: 15px;
+         justify-content: space-between;
+         align-items: center;
+         justify-content: center;
+         position: fixed;
+         bottom: 30px;
+         border: 1px solid black;
+         height: 4.5rem;
+         bottom: 0px;
+         width: 100%;
+         background-color: rgb(51, 50, 50);
+         font-weight: bold;
+         margin-right:100px ;
+         padding-right: 1rem;
+         border-top-right-radius: 15px;
+         border-top-left-radius: 15px;
+         
+        
+     }
+     .blanc a{
+         text-decoration: none;
+         color: white;
+         padding-left: px;
+         margin-left: 20px;
+         margin-bottom: 15px;
+}
+         .carre{
+            margin-top: 7rem;
+            height: 15rem;
+            width: 100%;
+            border:1px solid black;
+            margin-right: 2rem;
+            color: white;
+            font-weight: bold;
+            padding-bottom: -1rem;
+            
+        }
+
+        .carre-1{
+            margin-top: 11rem;
+            margin-bottom: 3rem;
+        }
+
+        .carre .titre{
+            color: white;
+        
+        }
+
+        form .rond .input{
+            border:none;
+            height: 3rem;
+            width: 65rem;
+            background-color: gray;
+            border: 1px solid black;
+            margin-top: 3.5rem;
+            margin-left: 2rem;
+            border-radius: 50px;
+           
+        }
+
+        form .valider{
+            margin-top: 0.6rem;
+            width: 3.8rem;
+            height: 1.9rem;
+            border:none ;
+            border-radius: px;
+            padding-left: 0.7rem;
+            padding-top: 0.3rem;
+            position: absolute;
+            display: flex;
+            margin-left: 43.5rem;
+            margin-top: -1.95rem;
+            margin-right: -1rem;
+            
+            
+        }
+
+        /*.aime{
+            position: absolute;
+            display: flex;
+            margin-left: rem;
+            margin-top: 13.9rem;
+            background-color: black;
+            width: 100%;
+           
+            
+        }
+        .aime .aime-1{
+            border: none;
+            height: 2rem;
+            width: 4rem;
+            background-color: gray;
+            margin-right: 0.2rem;
+            border-radius: 50px;
+            
+        }
+    
+        .aime .partager{
+            border: none;
+            height: 2rem;
+            width: 4rem;
+            background-color: gray;
+            margin-right: 0.2rem;
+            border-radius: 50px;
+            
+        }
+    
+        .aime .enregister{
+            border: none;
+            height: 2rem;
+            width: 4rem;
+            background-color: gray;
+            margin-right: rem;
+            border-radius: 50px;
+            
+        }
+    
+    
+        .aime .abonner{
+            border: none;
+            height: 2rem;
+            width: 4rem;
+            background-color: gray;
+            margin-right: rem;
+            border-radius: 50px;
+            margin-left: 7rem;
+            
+        }
+
+        .aime{
+            position: fixed;
+            top: 7.5rem;
+        }*/
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -25,43 +252,27 @@
     
     body{
         width: 100%;
-        background-color:rgb(67, 53, 53); 
+        height: 100%;
+        background-color:black; 
     }
-    
-}
 
-
-@media screen and (min-width:1024px)
-{
-    
-    
-    body{
-        background-color:rgb(67, 53, 53); 
-        width: 100%;
-       
-    }
-    
-    
-    
-    /*header*/
-    
     header{
         height: 7rem;
         width: 100%;
-        background-color:black;
+        background-color:rgb(51, 50, 50);
     }
 
    header .play img{
-    margin-left: 20rem;
-    margin-top: 1rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
    }
 
    header .lecteur{
-    color: brown;
+    color: white;
     font-weight: bold;
     font-size: 30px;
     position: absolute;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-left: 1rem;
     
 
@@ -69,9 +280,9 @@
     
     .barre{
         float: right;
-        height: 1550px;
-        width:17%;
-        background-color: black;
+        height: 1000px;
+        width:20%;
+        background-color: rgb(51, 50, 50);
         
     }
     
@@ -100,13 +311,330 @@
     }
     
     .blanc a:hover{
-        color: black;
+        color: grey;
     }
+    
     
     .barre .commentaire{
         font-size:14px;
         margin-top: 10%;
         margin-left: 5%;
+        color: white;
+    }
+    
+    .button{
+        border: none;
+        height: 1rem;
+        width: 4rem;
+        border-radius: 100px;
+        padding-bottom: 1rem;
+        border-radius: 10px;
+    }
+    
+    .button:hover{
+        box-shadow: 1px 1px 14px;
+        background-color: blue;
+        color: red;
+    }
+    
+    .video{
+        position: absolute;
+        display:flex ;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    
+    .video1{
+        animation: anime1 12s infinite;
+    }
+    
+    @keyframes anime1 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+    
+    
+    
+    .video2{
+        animation: anime2 11s infinite;
+    }
+    
+    @keyframes anime2 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+    
+    .video3{
+        animation: anime2 10s infinite;
+    }
+    
+    @keyframes anime3 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+
+    video .vide{
+        width: 50%;
+    }
+   
+
+    .ecrit{
+        padding-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    .recherche img{
+        float: right;
+        margin-top: -20px;
+        margin-right: 1rem;
+    }
+    video{
+        margin-top: 3rem;
+        margin-left:3rem;
+    }
+
+    form .rond .input{
+        border:none;
+        height: 3rem;
+        width: 35rem;
+        background-color: gray;
+        border: 1px solid black;
+        margin-top: 3.5rem;
+        margin-left: 2rem;
+        border-radius: 50px;
+    }
+
+    .aime{
+        display: flex;
+        margin-left: 2.5rem;
+        margin-top: 1rem;
+        font-size: 11px;
+        
+    }
+    .aime .aime-1{
+        border: none;
+        height: 2rem;
+        width: 8rem;
+        background-color: gray;
+        margin-right: 2rem;
+        border-radius: 50px;
+        font-size: 11px;
+        
+    }
+
+    .aime .partager{
+        border: none;
+        height: 2rem;
+        width: 8rem;
+        background-color: gray;
+        margin-right: 2rem;
+        border-radius: 50px;
+        font-size: 11px;
+        
+    }
+
+    .aime .enregister{
+        border: none;
+        height: 2rem;
+        width: 8rem;
+        background-color: gray;
+        margin-right: 2rem;
+        border-radius: 50px;
+        font-size: 11px;
+        
+    }
+
+
+    .aime .abonner{
+        border: none;
+        height: 2rem;
+        width: 8rem;
+        background-color: gray;
+        margin-right: 15rem;
+        border-radius: 50px;
+        margin-left: 7rem;
+        font-size: 11px;
+        
+    }
+
+
+    .rech form{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: -1rem;
+        margin-left: 2.5rem;
+        align-content: ;
+    }
+
+    form .rond{
+        height: 1.3rem;
+    }
+
+    form .rond input{
+        width: 30rem;
+        height: 2rem;
+        border-radius: 50px;
+        border: none;
+        padding-left: 2rem;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    form .valider{
+        margin-top: 0.6rem;
+        width: 5rem;
+        height: 2rem;
+        border:none ;
+        border-radius: 50px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        
+    }
+
+    .carre{
+        margin-top: 4rem;
+        height: 10rem;
+        width: 10rem;
+        border:1px solid black;
+        margin-right: 2rem;
+        color: white;
+        font-weight: bold;
+    }
+
+    .carre-1{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        margin-left: 3rem;
+    }
+
+    .carre-2{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        margin-left: 3rem;
+    }
+
+
+    .home{
+        height: 50rem;
+        width: 50re;
+    }
+    
+}
+
+@media screen and (min-width:1024px)
+{
+    
+    
+    body{
+        background-color:black; 
+        width: 100%;
+        height: 100%;
+       
+    }
+    
+    
+    
+    /*header*/
+    
+    header{
+        height: 7rem;
+        width: 100%;
+        background-color:rgb(51, 50, 50);
+    }
+
+   header .play img{
+    margin-left: 20rem;
+    margin-top: 1rem;
+   }
+
+   header .lecteur{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+
+   }
+    
+    .barre{
+        float: right;
+        height: 1550px;
+        width:20%;
+        background-color: rgb(51, 50, 50);
+        
+    }
+    
+    .barre .icone{
+        height: 6.5%;
+        width: 40%;
+        background-color: bisque;
+        margin-top: 10%;
+        margin-left: 18%;
+        border-radius: 100%; 
+    }
+    
+    .barre .icone img{
+        border-radius: 100%; 
+    }
+    
+    .blanc{
+        text-align: justify;
+        margin-top: 10%;
+        margin-left: 20%;
+        font-size: 25px;
+    }
+    .barre .blanc a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .blanc a:hover{
+        color: grey;
+    }
+    
+    .barre .commentaire{
+        font-size:14px;
+        margin-top: 10%;
+        margin-left: 2%;
         color: white;
     }
     
@@ -270,6 +798,70 @@
         
     }
 
+
+    .rech form{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: -1rem;
+        margin-left: 2.5rem;
+        align-content: ;
+    }
+
+    form .rond{
+        height: 1.3rem;
+    }
+
+    form .rond input{
+        width: 30rem;
+        height: 2rem;
+        border-radius: 50px;
+        border: none;
+        padding-left: 2rem;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    form .valider{
+        margin-top: 0.6rem;
+        width: 5rem;
+        height: 2rem;
+        border:none ;
+        border-radius: 50px;
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        
+    }
+
+    .carre{
+        margin-top: 4rem;
+        height: 20rem;
+        width: 20rem;
+        border:1px solid black;
+        margin-right: 2rem;
+        color:white;
+        font-weight: bold;
+    }
+
+    .carre-1{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        margin-left: 3rem;
+    }
+
+    .carre-2{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        margin-left: 3rem;
+    }
+}
+
+    
+    
+   
     
 
 

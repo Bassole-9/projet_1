@@ -18,17 +18,413 @@
         width: 200px;
     }
 
+    header{
+        height: 7rem;
+        width: 100%;
+        background-color:black;
+    }
+
+   header .play img{
+    margin-left: 2rem;
+    margin-top: 2rem;
+   }
+
+   header .lecteur{
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    
+
+   }
+
 
 
 }
+
+
 
 @media screen and (min-width:768px) and (max-width:1023px)  {
     
     body{
         width: 100%;
+        height: 100%;
         background-color:rgb(67, 53, 53); 
     }
+
+    header{
+        height: 7rem;
+        width: 100%;
+        background-color:black;
+    }
+
+   header .play img{
+    margin-left: 10rem;
+    margin-top: 1rem;
+   }
+
+   header .lecteur{
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+
+   }
+
+     
+   .barre{
+    float: right;
+    height: 1550px;
+    width:17%;
+    background-color: black;
     
+}
+
+.barre .icone{
+    height: 6.5%;
+    width: 40%;
+    background-color: bisque;
+    margin-top: 10%;
+    margin-left: 18%;
+    border-radius: 100%; 
+}
+
+.barre .icone img{
+    border-radius: 100%; 
+}
+
+.blanc{
+    text-align: justify;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-size: 25px;
+}
+.barre .blanc a{
+    text-decoration: none;
+    color: white;
+}
+
+.blanc a:hover{
+    color: gray;
+}
+
+.barre .commentaire{
+    font-size:14px;
+    margin-top: 10%;
+    margin-left: 5%;
+    color: white;
+}
+
+.button{
+    border: none;
+    height: 1rem;
+    width: 4rem;
+    border-radius: 100px;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.button:hover{
+    box-shadow: 1px 1px 14px;
+    background-color: blue;
+    color: red;
+}
+
+.video{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.video1{
+    animation: anime1 12s infinite;
+}
+
+@keyframes anime1 {
+    0%{
+        transform: translate(0,0);
+        opacity: 100%;
+    }
+    50%{
+        transform: translate(0,1040px);
+        opacity:0%;
+        }
+
+    100%{
+        transform: translate(0,0);
+        opacity: 0%;
+    }
+}
+
+
+
+.video2{
+    animation: anime2 11s infinite;
+}
+
+@keyframes anime2 {
+    0%{
+        transform: translate(0,0);
+        opacity: 100%;
+    }
+    50%{
+        transform: translate(0,1040px);
+        opacity:0%;
+        }
+
+    100%{
+        transform: translate(0,0);
+        opacity: 0%;
+    }
+}
+
+.video3{
+    animation: anime2 10s infinite;
+}
+
+@keyframes anime3 {
+    0%{
+        transform: translate(0,0);
+        opacity: 100%;
+    }
+    50%{
+        transform: translate(0,1040px);
+        opacity:0%;
+        }
+
+    100%{
+        transform: translate(0,0);
+        opacity: 0%;
+    }
+}
+
+.bule1{
+    height: 2rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 4rem;
+    text-align: center;
+    padding-top: 0.5rem;
+}
+
+.bule2{
+    height: 2rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: -2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-left: -5rem;
+}
+
+.bule3{
+    height: 2rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-left: 5rem;
+}
+
+.bule4{
+    height: 2rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 11rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-left: -15rem;
+}
+
+.bule5{
+    height: 2rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: -2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-left: 2rem;
+}
+
+
+.bule6{
+    height: 2rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 7rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-left: -13rem;
+}
+
+.bule7{
+    height: 2rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: 7rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-left: 4rem;
+}
+
+.bule8{
+    height: 2rem;
+    width: 10rem;
+    background-color: white;
+    border-radius: 50px;
+    margin-top: -2rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+.bule9{
+    height: 2rem;
+    width: 10rem;
+    background-color:white;
+    border-radius: 50px;
+    margin-top: 10rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    margin-left: -2rem;
+}
+    
+
+.maison{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 4rem;
+   
+}
+
+
+.maison .bule{
+    text-align: center;
+    padding-top:10px;
+}
+.grande .maison{
+    display: flex;
+    
+}
+
+.grande .maison a{
+    text-decoration: none;
+    color: black;
+}
+
+.ano{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+   
+}
+
+.lil{
+    height: 18rem;
+    width: 18rem;
+    border: 1px solid black;
+    margin-left: 2rem;
+}
+
+.max{
+    height: 18rem;
+    width: 18rem;
+    border: 1px solid black;
+}
+
+.Nos{
+    height: 18rem;
+    width: 18rem;
+    border: 1px solid black;
+    margin-right: 2rem;
+}
+
+
+.ano1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 7rem;
+   
+}
+
+.lil{
+    height: 18rem;
+    width: 18rem;
+    border: 1px solid black;
+    margin-left: 2rem;
+}
+
+.max{
+    height: 18rem;
+    width: 18rem;
+    border: 1px solid black;
+}
+
+.Nos{
+    height: 18rem;
+    width: 18rem;
+    border: 1px solid black;
+    margin-right: 2rem;
+}
+
+.ano2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 7rem;
+   
+}
+
+.lil{
+    height: 14rem;
+    width: 14rem;
+    border: 1px solid black;
+    margin-left: 2rem;
+}
+
+.max{
+    height: 14rem;
+    width: 14rem;
+    border: 1px solid black;
+}
+
+.Nos{
+    height: 14rem;
+    width: 14rem;
+    border: 1px solid black;
+    margin-right: 2rem;
+}
+
+.ano .titre{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ano1 .titre{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.ano2 .titre{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
 }
 
 
@@ -39,6 +435,7 @@
     body{
         background-color:rgb(67, 53, 53); 
         width: 100%;
+        height: 100%;
        
     }
     
@@ -101,7 +498,7 @@
     }
     
     .blanc a:hover{
-        color: black;
+        color: gray;
     }
     
     .barre .commentaire{
@@ -417,72 +814,4 @@
     
     
 }
-
-
-
-/*
-.maison-image{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-right: 8%;
-    padding-left: 8%;
-    margin-left: 3rem;
-}
-
-.maison-image .col1{
-    margin-top: 5rem;
-    display: flex; 
-}
-
-
-.maison-image .max{
-    height: 50rem;
-    width: 50rem;
-    margin-left:7rem;
-    margin-left: 5rem;
-    border: 1px solid red;
-}
-
-.maison-image .Nos{
-    margin-left: 5rem;
-}
-
-
-.maison-image .col2{
-    margin-top: -27rem;
-    display: flex;
-    justify-content: space-between;  
-}
-
-.maison-image .col3{
-    margin-top: -27rem;
-    display: flex;
-    justify-content: space-between;  
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

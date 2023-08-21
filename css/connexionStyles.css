@@ -1,0 +1,640 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:768px){
+    body{
+        background-color:rgb(67, 53, 53); 
+        width: 100%;  
+        height: 100%; 
+    }
+
+    .video{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px)  {
+    
+    body{
+        height: 100%;
+        width: 100%;
+        background-color:rgb(67, 53, 53); 
+    }
+    .play img{
+        margin-left: 10rem;
+        margin-top: 1rem;
+       }
+    
+       .lecteur{
+        color: brown;
+        font-weight: bold;
+        font-size: 30px;
+        position: absolute;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        }
+        
+    
+    .bloc{
+        margin: 0;
+        margin-top: 10rem;
+        width: 100%;
+    }
+    
+    .bloc form{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        
+        
+    }
+    
+    .nom{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    .mot .place{
+        border: none;
+        width: 15rem;
+        height: 1.5rem;
+        border: 3px solid rgb(26, 14, 116);
+        border-radius: 50px;
+        margin-top: .5rem;
+        padding-left: 1rem;
+        background-color: gray;
+    }
+    
+    .mot{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem;
+        align-items: center;
+        font-weight: bold;
+    }
+    
+    .nom .place{
+        border: none;
+        width: 15rem;
+        height: 1.5rem;
+        border: 3px solid rgb(26, 14, 116);
+        border-radius: 50px;
+        margin-top: .5rem;
+        padding-left: 1rem;
+        background-color: gray;
+    }
+    
+    .button{
+        border: none;
+        height: 1.5rem;
+        width: 7rem;
+        margin-top: 2rem;
+        border: 1px solid rgb(26, 14, 116);
+        border-radius: 50px;
+        background-color: gray;
+        color: white;
+        padding-bottom: .2rem;
+        font-weight: bolder;
+    }
+    
+    .button:hover{
+        background-color: red;
+        box-shadow: 3px 3px 14px;
+    }
+    
+    .logo{
+        margin-left: 7rem;
+        margin-top: 3rem;
+    }
+    
+    .logo .point p a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .fb{
+        height: 2rem;
+        width: 2rem;
+        margin-left: 5rem;
+        border-radius: 100%;
+    }
+    
+    .fa{
+        height: 2rem;
+        width: 2rem;
+        border-radius: 100%;
+        
+    }
+    
+    .fa img{
+        border-radius: 100%;
+    }
+    .fb img{
+        border-radius: 100%;
+    }
+    .fc img{
+        border-radius: 100%;
+    }
+    
+    .fc{
+        height: 2rem;
+        width: 2rem;
+        margin-left: 5rem;
+        border-radius: 100%;
+    }
+    .logo .point-2{
+        display: flex;
+        margin-top: 1rem;
+    }
+    
+        .logo2{
+            float: right;
+            margin-top: -1.2rem;
+            margin-right: 7rem;
+        }
+        
+        .logo2 .point p a{
+            text-decoration: none;
+            color: white;
+        }
+    
+    .rond .rond-1{
+        height: 2.5rem;
+        width: 17rem;
+        border: 1px solid black;
+        border-radius: 50px;
+        padding-top: 0.5rem;
+        padding-left:2rem ;
+        background-color: grey;
+    }
+    
+    .rond .rond-1 a{
+        text-decoration: none;
+        color:black;
+        margin-right: 2rem;
+        padding-top: ;
+    }
+    
+    .rond .rond-1 .bas{
+        text-decoration: none;
+        color:black;
+        margin-right: 2rem;
+        margin-top: -0.5rem;
+    }
+    
+    .rond .rond-1 .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    
+    .rond .rond-2{
+        height: 2.5rem;
+        width: 17rem;
+        border: 1px solid black;
+        margin-left: 1rem;
+        border-radius: 50px;
+        padding-top: 0.5rem;
+        padding-left: 4rem;
+        background-color: gray;
+    }
+    
+    .rond .rond-2 a{
+        text-decoration: none;
+        color:black;
+        margin-right: 2rem;
+        padding-top: ;
+    }
+    
+    .rond .rond-2 .bas{
+        text-decoration: none;
+        color:black;
+        margin-right: rem;
+        margin-top: -0.5rem;
+    }
+    
+    .rond .rond-2 .flex .bas{
+        margin-left: 4rem;
+        margin-top: -2.2rem;
+    }
+    
+    .rond .rond-2 .flex{
+        justify-content: space-between;
+    }
+    
+    .rond{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    
+    }
+    
+    .lect{
+        float: right;
+        margin-top: 4rem;
+        margin-right: 3rem;
+    }
+    
+    .point-3{
+        display: flex;
+        margin-top: 6rem;
+        margin-left: 2rem;
+    }
+    
+    
+    .point-3.fb{
+        height: 2rem;
+        width: 2rem;
+        margin-left: 1rem;
+        border-radius: 100%;
+    }
+    
+    
+    .point-3 .fa{
+        height: 2rem;
+        width: 2rem;
+        border-radius: 100%;
+        
+    }
+    
+    .point .fa img{
+        border-radius: 50px;
+    }
+    .fb img{
+        border-radius: 50px;
+    }
+    .fc img{
+        border-radius: 50px;
+    }
+    
+    .point-3 .fc {
+        height: 2rem;
+        width: 2rem;
+        margin-left: 1rem;
+        border-radius: 100%;
+    }
+    
+    .vid{
+        margin-top: -33rem;
+        height: 20rem;
+        width: 15rem;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius:50px ;
+    }
+    
+    .vid2{
+        display: flex;
+        float: right;
+        margin-top:-32.5rem ;
+        margin-right: -9rem;
+        height: 20rem;
+        width: 15rem;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius:50px ;
+    }
+    
+    .retour{
+        float: right;
+        margin-top: 2rem;
+        margin-right: 4rem;
+        height: 2rem;
+        width: 6rem;
+        background-color:gray;
+        border-radius: 50px;
+        padding-left: 1.5rem;
+        padding-top: 0.5rem;
+    }
+    
+    .retour a{
+        text-decoration: none;
+        color: black;
+    }
+    
+}
+
+
+
+@media screen and (min-width:1024px)
+{
+    
+    
+    body{
+        background-color:rgb(67, 53, 53); 
+        width: 100%;
+        height: 100%;
+       
+    }
+
+
+.play img{
+    margin-left: 20rem;
+    margin-top: 1rem;
+   }
+
+   .lecteur{
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    }
+    
+
+.bloc{
+    margin: 0;
+    margin-top: 10rem;
+    width: 100%;
+}
+
+.bloc form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.nom{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    align-items: center;
+    font-weight: bold;
+}
+
+.mot .place{
+    border: none;
+    width: 20rem;
+    height: 1.5rem;
+    border: 3px solid rgb(26, 14, 116);
+    border-radius: 50px;
+    margin-top: .5rem;
+    padding-left: 1rem;
+    background-color: gray;
+}
+
+.mot{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nom .place{
+    border: none;
+    width: 20rem;
+    height: 1.5rem;
+    border: 3px solid rgb(26, 14, 116);
+    border-radius: 50px;
+    margin-top: .5rem;
+    padding-left: 1rem;
+    background-color: gray;
+}
+
+.button{
+    border: none;
+    height: 1.5rem;
+    width: 7rem;
+    margin-top: 2rem;
+    border: 1px solid rgb(26, 14, 116);
+    border-radius: 50px;
+    background-color: gray;
+    color: white;
+    padding-bottom: .2rem;
+    font-weight: bolder;
+}
+
+.button:hover{
+    background-color: red;
+    box-shadow: 3px 3px 14px;
+}
+
+.logo{
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+
+.logo .point p a{
+    text-decoration: none;
+    color: white;
+}
+
+.fb{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 5rem;
+    border-radius: 100%;
+}
+
+.fa{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    
+}
+
+.fa img{
+    border-radius: 100%;
+}
+.fb img{
+    border-radius: 100%;
+}
+.fc img{
+    border-radius: 100%;
+}
+
+.fc{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 5rem;
+    border-radius: 100%;
+}
+.logo .point-2{
+    display: flex;
+    margin-top: 1rem;
+}
+
+    .logo2{
+        float: right;
+        margin-top: -1.2rem;
+        margin-right: 7rem;
+    }
+    
+    .logo2 .point p a{
+        text-decoration: none;
+        color: white;
+    }
+
+.rond .rond-1{
+    height: 2.5rem;
+    width: 17rem;
+    border: 1px solid black;
+    border-radius: 50px;
+    padding-top: 0.5rem;
+    padding-left:2rem ;
+    background-color: grey;
+}
+
+.rond .rond-1 a{
+    text-decoration: none;
+    color:black;
+    margin-right: 2rem;
+    padding-top: ;
+}
+
+.rond .rond-1 .bas{
+    text-decoration: none;
+    color:black;
+    margin-right: 2rem;
+    margin-top: -0.5rem;
+}
+
+.rond .rond-1 .flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.rond .rond-2{
+    height: 2.5rem;
+    width: 17rem;
+    border: 1px solid black;
+    margin-left: 1rem;
+    border-radius: 50px;
+    padding-top: 0.5rem;
+    padding-left: 4rem;
+    background-color: gray;
+}
+
+.rond .rond-2 a{
+    text-decoration: none;
+    color:black;
+    margin-right: 2rem;
+    padding-top: ;
+}
+
+.rond .rond-2 .bas{
+    text-decoration: none;
+    color:black;
+    margin-right: rem;
+    margin-top: -0.5rem;
+}
+
+.rond .rond-2 .flex .bas{
+    margin-left: 4rem;
+    margin-top: -2.2rem;
+}
+
+.rond .rond-2 .flex{
+    justify-content: space-between;
+}
+
+.rond{
+display: flex;
+justify-content: center;
+margin-top: 3rem;
+
+}
+
+.lect{
+    float: right;
+    margin-top: 4rem;
+    margin-right: 3rem;
+}
+
+.point-3{
+    display: flex;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+
+
+.point-3.fb{
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1rem;
+    border-radius: 100%;
+}
+
+
+.point-3 .fa{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    
+}
+
+.point .fa img{
+    border-radius: 50px;
+}
+.fb img{
+    border-radius: 50px;
+}
+.fc img{
+    border-radius: 50px;
+}
+
+.point-3 .fc {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1rem;
+    border-radius: 100%;
+}
+
+.vid{
+    margin-top: -33rem;
+    height: 20rem;
+    width: 15rem;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius:50px ;
+}
+
+.vid2{
+    display: flex;
+    float: right;
+    margin-top:-32.5rem ;
+    margin-right: -9rem;
+    height: 20rem;
+    width: 15rem;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius:50px ;
+}
+
+.retour{
+    float: right;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    height: 2rem;
+    width: 6rem;
+    background-color:gray;
+    border-radius: 50px;
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.retour a{
+    text-decoration: none;
+    color: black;
+}
+
+
+}
