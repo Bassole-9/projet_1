@@ -139,6 +139,10 @@
         color: white;
     }
 
+    .blanc a:visited{
+        color: grey;
+    }
+
     .blanc{
        display: flex;
         font-size: 15px;
@@ -173,34 +177,6 @@
     .blanc a:hover{
         color: grey;
     }
-
-
-
-
-
-   
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
@@ -246,10 +222,10 @@
     
     .barre .icone{
         height: 6.5%;
-        width: 40%;
+        width: 60%;
         background-color: bisque;
         margin-top: 10%;
-        margin-left: 18%;
+        margin-left: 2rem;
         border-radius: 100%; 
     }
     
@@ -260,6 +236,13 @@
     .blanc{
        display: none;
     }
+
+    .blanc-1{
+        text-align: justify;
+        margin-top: 10%;
+        margin-left: 20%;
+        font-size: 25px;
+    }
   
     .barre .blanc-1 a{
         text-decoration: none;
@@ -267,7 +250,7 @@
     
     }
     
-    .blanc-1 a:hover{
+    .blanc-1 a:visited{
         color: grey;
     }
 
@@ -275,14 +258,6 @@
         margin-left: 2rem;
     }
     
-   
-    /*.barre .commentaire{
-        font-size:14px;
-        margin-top: 10%;
-        margin-left: %;
-        color: white;
-    }*/
-
    
     
     .button{
@@ -517,7 +492,7 @@
         width: 40%;
         background-color: bisque;
         margin-top: 10%;
-        margin-left: 18%;
+        margin-left: 4rem;
         border-radius: 100%; 
     }
     
@@ -533,12 +508,14 @@
         color: white;
     }
     
-    .blanc-1 a:hover{
+    .blanc-1 a:visited{
         color: grey;
     }
 
     .blanc-1{
-        margin-left: 3rem;
+        text-align: justify;
+        margin-top: 10%;
+        margin-left: 30%;
         font-size: 25px;
     }
     

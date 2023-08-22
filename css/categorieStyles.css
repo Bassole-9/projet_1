@@ -5,8 +5,9 @@
 }
 @media screen and (max-width:768px){
     body{
-        background-color:rgb(67, 53, 53); 
+        background-color:black; 
         width: 100%;   
+        margin-bottom: 7.5rem;
     }
 
     header{
@@ -30,35 +31,100 @@
        }
 
        .blanc{
-        display: flex;
-         font-size: 15px;
-         justify-content: space-between;
-         align-items: center;
-         justify-content: center;
-         position: fixed;
-         bottom: 30px;
-         border: 1px solid black;
-         height: 6rem;
-         bottom: 0px;
-         width: 100%;
-         background-color: rgb(51, 50, 50);
-         font-weight: bold;
-         margin-right:100px ;
-         padding-right: 1rem;
-        
-     }
-     .blanc a{
-         text-decoration: none;
-         color: white;
-         padding-left: px;
-         margin-left: 20px;
-         margin-bottom: 15px;
-         
- 
-     }
-    
+        display: none;
+       }
 
+
+     .categorie1{
+        display: flex;
+        margin-top: 5rem;
+        box-shadow: 3px 3px 17px;
+        margin-left: 2rem;
+        color: white;
+        
+    }
+     .gaz1{
+        z-index:8;
+        float:;
+        height: 10rem;
+        width:15rem;
+        border: 1px solid black;
+        margin-left: -1rem;
+    }
+
+    .gaz2{
+        z-index: 9;
+        position: absolute;
+        height: 10rem;
+        width:15rem;
+        border: 1px solid black;
+        margin-left: -1rem;
+    }
+
+    .gaz3{
+        z-index: 10;
+        position: absolute;
+        height: 10rem;
+        width:15rem;
+        border: 1px solid black;
+    }
+
+   
+
+
+   h1{
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    color: white;
+   }
+
+   .ecrit{
+    text-align: center;
+    margin-bottom: -3rem;
+    margin-top: 3rem;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+   }
+
+   .barre{
+    display: none;
+   }
+
+   .blanc-1{
+    display: flex;
+     font-size: 15px;
+     justify-content: space-between;
+     align-items: center;
+     justify-content: center;
+     position: fixed;
+     bottom: 30px;
+     border: 1px solid black;
+     height: 6rem;
+     bottom: 0px;
+     width: 100%;
+     background-color: rgb(51, 50, 50);
+     font-weight: bold;
+     margin-right:100px ;
+     padding-right: 1rem;
+    
+     z-index: 100;
 }
+
+.blanc-1 a{
+    text-decoration: none;
+    color: white;
+    padding-left: px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.blanc-1 a:visited{
+    color: grey;
+}
+}
+
+
 
 @media screen and (min-width:768px) and (max-width:1023px)  {
     
@@ -82,15 +148,19 @@
    }
 
    header .lecteur{
-    color: white;
+    color: brown;
     font-weight: bold;
     font-size: 30px;
     position: absolute;
     margin-top: 1rem;
-    margin-left: 1rem;
-    
+    margin-left: 1rem;  
 
    }
+
+   .blanc-1{
+    display: none;
+   }
+
     
     .barre{
         float: right;
@@ -126,7 +196,7 @@
         color: white;
     }
     
-    .blanc a:hover{
+    .blanc a:visited{
         color: grey;
     }
     
@@ -303,7 +373,7 @@
    }
 
    header .lecteur{
-    color: white;
+    color: brown;
     font-weight: bold;
     font-size: 30px;
     position: absolute;
@@ -311,6 +381,10 @@
     margin-left: 1rem;
     
 
+   }
+
+   .blanc-1{
+    display: none;
    }
     
     .barre{
@@ -345,7 +419,7 @@
         color: white;
     }
     
-    .blanc a:hover{
+    .blanc a:visited{
         color: grey;
     }
     

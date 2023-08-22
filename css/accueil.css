@@ -6,27 +6,22 @@
 }
 @media screen and (max-width:768px){
     body{
-        background-color:rgb(67, 53, 53); 
+        background-color:black;
         width: 100%;   
     }
 
-    .video{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 5%;
-        height: 200px;
-        width: 200px;
-    }
+  
 
     header{
-        height: 7rem;
+        height: 4rem;
         width: 100%;
-        background-color:black;
+        background-color:rgb(51, 50, 50);
+      
     }
 
    header .play img{
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
    }
 
    header .lecteur{
@@ -34,13 +29,72 @@
     font-weight: bold;
     font-size: 20px;
     position: absolute;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-left: 1rem;
     
 
    }
 
+   .barre{
+    display: none;
+    
+}
 
+.lil{
+color:white;
+margin-top: rem;
+
+
+}
+.max{
+color: white;
+margin-top: 1.5rem;
+}
+
+.Nos{
+    color: white;
+    margin-top: 1.5rem;
+}
+
+
+
+
+.maison{
+    display: none;
+}
+
+
+.blanc-1{
+    display: flex;
+     font-size: 15px;
+     justify-content: space-between;
+     align-items: center;
+     justify-content: center;
+     position: fixed;
+     bottom: 30px;
+     border: 1px solid black;
+     height: 6rem;
+     bottom: 0px;
+     width: 100%;
+     background-color: rgb(51, 50, 50);
+     font-weight: bold;
+     margin-right:100px ;
+     padding-right: 1rem;
+    
+ }
+ .blanc-1 a{
+     text-decoration: none;
+     color: white;
+     padding-left: px;
+     margin-left: 20px;
+     margin-bottom: 15px;
+     
+
+ }
+
+ .blanc-1:visited{
+    color:gray
+ }
 
 }
 
@@ -51,13 +105,13 @@
     body{
         width: 100%;
         height: 100%;
-        background-color:rgb(67, 53, 53); 
+        background-color:black;
     }
 
     header{
         height: 7rem;
         width: 100%;
-        background-color:black;
+        background-color:rgb(51, 50, 50);
     }
 
    header .play img{
@@ -75,18 +129,21 @@
 
    }
 
-     
+     .blanc-1{
+        display: none;
+     }
+
    .barre{
     float: right;
     height: 1550px;
     width:17%;
-    background-color: black;
+    background-color: rgb(51, 50, 50);
     
 }
 
 .barre .icone{
     height: 6.5%;
-    width: 40%;
+    width: 60%;
     background-color: bisque;
     margin-top: 10%;
     margin-left: 18%;
@@ -412,6 +469,7 @@
 .ano .titre{
     text-transform: uppercase;
     font-weight: bold;
+    
 }
 
 .ano1 .titre{
@@ -424,6 +482,18 @@
     font-weight: bold;
 }
 
+.lil{
+    color:white
+    
+    }
+    .max{
+    color: white;
+    }
+    
+    .Nos{
+        color: white;
+    }
+
 
 }
 
@@ -433,7 +503,7 @@
     
     
     body{
-        background-color:rgb(67, 53, 53); 
+        background-color:black;
         width: 100%;
         height: 100%;
        
@@ -446,7 +516,7 @@
     header{
         height: 7rem;
         width: 100%;
-        background-color:black;
+        background-color:rgb(51, 50, 50);
     }
 
    header .play img{
@@ -469,7 +539,7 @@
         float: right;
         height: 1550px;
         width:17%;
-        background-color: black;
+        background-color: rgb(51, 50, 50);
         
     }
     
@@ -478,7 +548,7 @@
         width: 40%;
         background-color: bisque;
         margin-top: 10%;
-        margin-left: 18%;
+        margin-left: 4rem;
         border-radius: 100%; 
     }
     
@@ -489,7 +559,7 @@
     .blanc{
         text-align: justify;
         margin-top: 10%;
-        margin-left: 20%;
+        margin-left: 30%;
         font-size: 25px;
     }
     .barre .blanc a{
@@ -497,8 +567,8 @@
         color: white;
     }
     
-    .blanc a:hover{
-        color: gray;
+    .blanc a:visited {
+     
     }
     
     .barre .commentaire{
@@ -800,6 +870,7 @@
     .ano .titre{
         text-transform: uppercase;
         font-weight: bold;
+       
     }
 
     .ano1 .titre{
@@ -811,7 +882,21 @@
         text-transform: uppercase;
         font-weight: bold;
     }
-    
+    .lil{
+        color:white
+        
+        }
+        .max{
+        color: white;
+        }
+        
+        .Nos{
+            color: white;
+        }
+
+        .blanc-1{
+            display: none;
+        }
     
 }
 
