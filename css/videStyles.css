@@ -36,9 +36,6 @@
         display:none;
     }
 
-    .blanc a:hover{
-        color: grey;
-    }
 
     header{
         height: 4rem;

@@ -100,15 +100,17 @@
      position: fixed;
      bottom: 30px;
      border: 1px solid black;
-     height: 6rem;
+     height: 4.5rem;
      bottom: 0px;
      width: 100%;
      background-color: rgb(51, 50, 50);
      font-weight: bold;
      margin-right:100px ;
      padding-right: 1rem;
-    
      z-index: 100;
+     border-top-right-radius: 15px;
+     border-top-left-radius: 15px;
+         
 }
 
 .blanc-1 a{

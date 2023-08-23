@@ -29,10 +29,6 @@
 
    
 
-    .blanc a:hover{
-        color: grey;
-    }
-
     header{
         height: 4rem;
         width: 100%;
@@ -152,13 +148,16 @@
         position: fixed;
         bottom: 30px;
         border: 1px solid black;
-        height: 6rem;
+        height: 4.5rem;
         bottom: 0px;
         width: 100%;
         background-color: rgb(51, 50, 50);
         font-weight: bold;
         margin-right:100px ;
         padding-right: 1rem;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+         
        
     }
     .blanc a{
@@ -172,12 +171,6 @@
     }
 
     
-
-    
-    .blanc a:hover{
-        color: grey;
-    }
-
 
 }
 
