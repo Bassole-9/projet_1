@@ -85,12 +85,12 @@
             border: none;
             height: 1.5rem;
             width: 7rem;
-            margin-top: 3rem;
+            margin-top: 5rem;
             border: 1px solid black;
             border-radius: 50px;
             background-color: gray;
             color: black;
-            padding-bottom: .2rem;
+            padding-bottom: .1rem;
             font-weight: bolder;
             
         }
@@ -325,12 +325,11 @@
         border: none;
         height: 1.5rem;
         width: 7rem;
-        margin-top: 2rem;
+        margin-top: 3rem;
         border: 1px solid black;
         border-radius: 50px;
         background-color: gray;
         color: black;
-        padding-bottom: .2rem;
         font-weight: bolder;
     }
     
@@ -642,12 +641,11 @@
     border: none;
     height: 1.5rem;
     width: 7rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
     border: 1px solid black;
     border-radius: 50px;
     background-color: gray;
     color: black;
-    padding-bottom: .2rem;
     font-weight: bolder;
 }
 
