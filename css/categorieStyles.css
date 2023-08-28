@@ -45,7 +45,6 @@
     }
      .gaz1{
         z-index:8;
-        float:;
         height: 10rem;
         width:15rem;
         border: 1px solid black;
@@ -190,9 +189,24 @@
     .blanc{
         text-align: justify;
         margin-top: 10%;
-        margin-left: 20%;
+        margin-left: 5%;
         font-size: 25px;
     }
+
+    .barre .blanc a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        margin-top: 1rem; 
+    }
+
+    .barre .blanc a img{
+        margin-right: 1rem;
+      
+    }
+
+
+
     .barre .blanc a{
         text-decoration: none;
         color: white;
@@ -301,7 +315,6 @@
     }
      .gaz1{
         z-index:8;
-        float:;
         height: 10rem;
         width:15rem;
         border: 1px solid black;
@@ -344,6 +357,13 @@
    h1{
     color: white;
    }
+
+   hr{
+    margin-top: 1rem;
+    height: 0.5rem;
+    background-color: black;
+    border: none;
+}
     
 }
 
@@ -413,12 +433,22 @@
     .blanc{
         text-align: justify;
         margin-top: 10%;
-        margin-left: 30%;
+        margin-left: 10%;
         font-size: 25px;
+        color: white;
+        
+        
     }
     .barre .blanc a{
         text-decoration: none;
+        display: flex;
+        margin-top: 1rem; 
         color: white;
+    }
+
+    .barre .blanc a img{
+        margin-right: 1rem;
+      
     }
     
     .blanc a:visited{
@@ -525,7 +555,6 @@
     }
      .gaz1{
         z-index:8;
-        float:;
         height: 10rem;
         width:15rem;
         border: 1px solid black;
@@ -567,4 +596,11 @@
     font-weight: bold;
    }
 
+
+   hr{
+    margin-top: 1rem;
+    height: 0.5rem;
+    background-color: black;
+    border: none;
+}
 }

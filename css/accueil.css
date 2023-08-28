@@ -160,7 +160,7 @@ margin-top: 1.5rem;
 .blanc{
     text-align: justify;
     margin-top: 10%;
-    margin-left: 20%;
+    margin-left: 5%;
     font-size: 25px;
 }
 .barre .blanc a{
@@ -497,6 +497,26 @@ margin-top: 1.5rem;
         color: white;
     }
 
+    hr{
+        margin-top: 1rem;
+        height: 0.5rem;
+        background-color: black;
+        border: none;
+    }
+
+    .barre .blanc a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        margin-top: 1rem; 
+    }
+
+    .barre .blanc a img{
+        margin-right: 1rem;
+      
+    }
+
+
 
 }
 
@@ -562,7 +582,7 @@ margin-top: 1.5rem;
     .blanc{
         text-align: justify;
         margin-top: 10%;
-        margin-left: 30%;
+        margin-left: 10%;
         font-size: 25px;
     }
     .barre .blanc a{
@@ -570,9 +590,6 @@ margin-top: 1.5rem;
         color: white;
     }
     
-    .blanc a:visited {
-     
-    }
     
     .barre .commentaire{
         font-size:14px;
@@ -899,6 +916,25 @@ margin-top: 1.5rem;
 
         .blanc-1{
             display: none;
+        }
+
+        hr{
+            margin-top: 1rem;
+            height: 0.5rem;
+            background-color: black;
+            border: none;
+        }
+    
+        .barre .blanc a{
+            text-decoration: none;
+            color: white;
+            display: flex;
+            margin-top: 1rem; 
+        }
+    
+        .barre .blanc a img{
+            margin-right: 1rem;
+          
         }
     
 }
