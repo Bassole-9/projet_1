@@ -738,5 +738,7 @@
       
     }
 
-
+    .blanc a:visited{
+        color: grey;
+    }
 }

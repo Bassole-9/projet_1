@@ -431,7 +431,7 @@
     }
 
     form .valider{
-        margin-top: 0.6rem;
+        margin-top: 0.7rem;
         width: 5rem;
         height: 2rem;
         border:none ;
@@ -489,6 +489,13 @@
     .barre .blanc a img{
         margin-right: 1rem;
       
+    }
+    .re{
+        color: white;
+        font-weight: bold;
+        margin-left: 3rem;
+        font-size: 25px;
+        margin-top: 1rem;
     }
     
 }
@@ -762,7 +769,7 @@
     }
 
     form .valider{
-        margin-top: 0.6rem;
+        margin-top: 0.7rem;
         width: 5rem;
         height: 2rem;
         border:none ;
@@ -814,5 +821,13 @@
     .barre .blanc a img{
         margin-right: 1rem;
       
+    }
+
+    .re{
+        color: white;
+        font-weight: bold;
+        margin-left: 3rem;
+        font-size: 25px;
+        margin-top: 1rem;
     }
 }

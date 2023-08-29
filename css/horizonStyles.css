@@ -428,7 +428,7 @@
     }
 
     form .valider{
-        margin-top: 0.6rem;
+        margin-top: 0.7rem;
         width: 5rem;
         height: 2rem;
         border:none ;
@@ -486,6 +486,13 @@
         margin-right: 1rem;
       
     }
+    .zon{
+        color: white;
+        font-weight: bold;
+        margin-left: 3rem;
+        font-size: 25px;
+        margin-top: 1rem;
+    }
     
 }
 
@@ -528,7 +535,7 @@
     
     .barre{
         float: right;
-        height: 1550px;
+        height: 1500px;
         width:17%;
         background-color: rgb(51, 50, 50);
         
@@ -758,7 +765,7 @@
     }
 
     form .valider{
-        margin-top: 0.6rem;
+        margin-top: 0.7rem;
         width: 5rem;
         height: 2rem;
         border:none ;
@@ -810,6 +817,13 @@
     .barre .blanc a img{
         margin-right: 1rem;
       
+    }
+    .zon{
+        color: white;
+        font-weight: bold;
+        margin-left: 3rem;
+        font-size: 25px;
+        margin-top: 1rem;
     }
 }
 

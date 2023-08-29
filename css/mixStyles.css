@@ -190,7 +190,7 @@
     
     .barre{
         float: right;
-        height: 1550px;
+        height: 2000px;
         width:17%;
         background-color: rgb(51, 50, 50);
         
@@ -212,7 +212,7 @@
     .blanc{
         text-align: justify;
         margin-top: 10%;
-        margin-left: 20%;
+        margin-left: 5%;
         font-size: 25px;
     }
     .barre .blanc a{
@@ -429,7 +429,7 @@
     }
 
     form .valider{
-        margin-top: 0.6rem;
+        margin-top: 0.7rem;
         width: 5rem;
         height: 2rem;
         border:none ;
@@ -468,6 +468,32 @@
     .home{
         height: 50rem;
         width: 50re;
+    }
+
+    hr{
+        margin-top: 1rem;
+        height: 0.5rem;
+        background-color: black;
+        border: none;
+    }
+
+    .barre .blanc a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        margin-top: 1rem; 
+    }
+
+    .barre .blanc a img{
+        margin-right: 1rem;
+      
+    }
+    .mi{
+        color: white;
+        font-weight: bold;
+        margin-left: 3rem;
+        font-size: 25px;
+        margin-top: 1rem;
     }
     
 }
@@ -511,7 +537,7 @@
     
     .barre{
         float: right;
-        height: 1550px;
+        height: 1800px;
         width:17%;
         background-color: rgb(51, 50, 50);
         
@@ -533,7 +559,7 @@
     .blanc{
         text-align: justify;
         margin-top: 10%;
-        margin-left: 30%;
+        margin-left: 10%;
         font-size: 25px;
     }
     .barre .blanc a{
@@ -741,7 +767,7 @@
     }
 
     form .valider{
-        margin-top: 0.6rem;
+        margin-top: 0.7rem;
         width: 5rem;
         height: 2rem;
         border:none ;
@@ -775,4 +801,31 @@
         justify-content: space-between;
         margin-left: 3rem;
     }
+    hr{
+        margin-top: 1rem;
+        height: 0.5rem;
+        background-color: black;
+        border: none;
+    }
+
+    .barre .blanc a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        margin-top: 1rem; 
+    }
+
+    .barre .blanc a img{
+        margin-right: 1rem;
+      
+    }
+    .mi{
+        color: white;
+        font-weight: bold;
+        margin-left: 3rem;
+        font-size: 25px;
+        margin-top: 1rem;
+    }
+        
+
 }
