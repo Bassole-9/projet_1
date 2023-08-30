@@ -451,6 +451,9 @@
         margin-right: 1rem;
       
     }
+    .barre .blanc-1 a:hover{
+        color:black;
+    }
 
 
 
@@ -738,7 +741,7 @@
       
     }
 
-    .blanc a:visited{
-        color: grey;
+    .barre .blanc-1 a:hover{
+        color:black;
     }
 }

@@ -496,6 +496,9 @@
         font-size: 25px;
         margin-top: 1rem;
     }
+    .barre .blanc a:hover{
+        color:black;
+    }
     
 }
 
@@ -826,5 +829,8 @@
         margin-left: 3rem;
         font-size: 25px;
         margin-top: 1rem;
+    }
+    .barre .blanc a:hover{
+        color:black;
     }
 }

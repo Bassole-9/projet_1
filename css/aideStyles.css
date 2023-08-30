@@ -1,0 +1,688 @@
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+@media screen and (max-width:768px){
+    body{
+        background-color:black; 
+        width: 100%;
+        padding-bottom: 7rem; 
+    }
+
+    .blanc-1{
+        display: none;
+    }
+
+    .video{
+        display:none;
+    }
+
+    .barre .icone{
+        display: none;
+    }
+
+    .barre .commentaire{
+        display: none;
+    }
+
+   
+
+    header{
+        height: 4rem;
+        width: 100%;
+        background-color:rgb(51, 50, 50);
+    }
+    header .play img{
+        margin-left: 1rem;
+        margin-top: 1rem;
+       }
+    
+       header .lecteur{
+        color: brown;
+        font-weight: bold;
+        font-size: 20px;
+        position: absolute;
+        margin-top: 1rem;
+        margin-left: 1rem;
+        
+    
+       }
+
+       .nouveau{
+        
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+
+    }
+
+    .num1{
+        margin-top: 2rem;
+        margin-left: rem;
+    }
+
+    .num1 .num-1{
+        margin-left: rem;
+    }
+
+    .num1 .num-1 h5,h3,h1{
+        margin-left: 2px;
+        color: white;
+    }
+
+
+
+    .num2{
+        margin-top: 3rem;
+        margin-left: rem;
+    }
+
+    .num2 .num-1{
+        margin-left: rem;
+    }
+
+    .num2 .num-1 h5,h3,h1{
+        margin-left: 2px;
+        color: white;
+    }
+
+    .num3{
+        margin-top: 3rem;
+        margin-left: rem;
+    }
+
+    .num3 .num-1{
+        margin-left: rem;
+    }
+
+    .num3 .num-1 h5,h3,h1{
+        margin-left: 2px;
+        color: white;
+    }
+
+    .num4{
+        margin-top: 3rem;
+        margin-left: rem;
+    }
+
+    .num4 .num-1{
+        margin-left: rem;
+    }
+
+    .num4 .num-1 h5,h3,h1{
+        margin-left: 2px;
+        color: white;
+    }
+
+
+    .num5{
+        margin-top: 3rem;
+        margin-left: rem;
+    }
+
+    .num5 .num-1{
+        margin-left: rem;
+    }
+
+    .num5 .num-1 h5,h3,h1{
+        margin-left: 2px;
+        color: white;
+    }
+
+    .blanc a:visited{
+        color: grey;
+    }
+
+    .blanc{
+       display: flex;
+        font-size: 15px;
+        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 30px;
+        border: 1px solid black;
+        height: 4.5rem;
+        bottom: 0px;
+        width: 100%;
+        background-color: rgb(51, 50, 50);
+        font-weight: bold;
+        margin-right:100px ;
+        padding-right: 1rem;
+        border-top-right-radius: 15px;
+        border-top-left-radius: 15px;
+         
+       
+    }
+    .blanc a{
+        text-decoration: none;
+        color: white;
+        padding-left: px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        
+
+    }
+    hr{
+        display: none;
+    }
+
+    .carre{
+        position: absolute;
+        display: flex;
+        height: 50%;
+        width: 70%;
+        background-color: gray;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .mise{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+    
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px)  {
+    
+    body{
+        width: 100%;
+        height: 100%;
+        background-color:black; 
+    }
+
+      
+    header{
+        height: 7rem;
+        width: 100%;
+        background-color:rgb(51, 50, 50);
+    }
+
+   header .play img{
+    margin-left: 10rem;
+    margin-top: 1rem;
+   }
+
+   header .lecteur{
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+
+   }
+    
+    .barre{
+        float: right;
+        height: 1550px;
+        width:17%;
+        background-color: rgb(51, 50, 50);
+        
+    }
+    
+    .barre .icone{
+        height: 6.5%;
+        width: 60%;
+        background-color: bisque;
+        margin-top: 10%;
+        margin-left: 2rem;
+        border-radius: 100%; 
+    }
+    
+    .barre .icone img{
+        border-radius: 100%; 
+    }
+    
+    .blanc{
+       display: none;
+    }
+
+    .blanc-1{
+        text-align: justify;
+        margin-top: 10%;
+        margin-left: 5%;
+        font-size: 25px;
+    }
+  
+    .barre .blanc-1 a{
+        text-decoration: none;
+        color: white;
+    
+    }
+    
+    .blanc-1 a:visited{
+        color: grey;
+    }
+
+    .blanc-1{
+        margin-left: 2rem;
+    }
+    
+   
+    
+    .button{
+        border: none;
+        height: 1rem;
+        width: 4rem;
+        border-radius: 100px;
+        padding-bottom: 1rem;
+        border-radius: 10px;
+    }
+    
+    .button:hover{
+        box-shadow: 1px 1px 14px;
+        background-color: blue;
+        color: red;
+    }
+    
+    .video{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    
+    .video1{
+        animation: anime1 12s infinite;
+    }
+    
+    @keyframes anime1 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+    
+    
+    
+    .video2{
+        animation: anime2 11s infinite;
+    }
+    
+    @keyframes anime2 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+    
+    .video3{
+        animation: anime2 10s infinite;
+    }
+    
+    @keyframes anime3 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+
+    .gaz{
+        height: 15rem;
+        width: 20rem;
+        border: 1px solid black;
+    }
+
+    .num1{
+        margin-top: 3rem;
+        margin-left: 2rem;
+        display: flex;
+    }
+
+    .num1 .num-1{
+        margin-left: 2rem;
+    }
+
+    .num1 .num-1 h5,h1,h3{
+        margin-left: 2px;
+        color: white;
+    }
+
+    .nouveau{
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+
+
+
+    }
+    .gaz{
+        height: 15rem;
+        width: 20rem;
+        border: 1px solid black;
+    }
+
+    .num1{
+        margin-top: 3rem;
+        margin-left: 2rem;
+        display: flex;
+    }
+
+    .num1 .num-1{
+        margin-left: 2rem;
+    }
+
+    .num1 .num-1 h5,h1,h3{
+        margin-left: 2px;
+        color: white;
+    }
+
+    .nouveau{
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+
+
+
+    }
+
+
+    hr{
+        margin-top: 1rem;
+        height: 0.5rem;
+        background-color: black;
+        border: none;
+    }
+
+    .barre .blanc-1 a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        margin-top: 1rem; 
+    }
+
+    .barre .blanc-1 a img{
+        margin-right: 1rem;
+      
+    }
+    .barre .blanc-1 a:hover{
+        color:black;
+    }
+
+    .carre{
+        position: absolute;
+        display: flex;
+        height: 50%;
+        width: 70%;
+        background-color: gray;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .mise{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+    
+}
+
+
+@media screen and (min-width:1024px)
+{
+    
+    
+    body{
+        background-color:black;
+        width: 100%;
+        height: 100%;
+       
+    }
+    
+    
+    
+    /*header*/
+    
+    header{
+        height: 7rem;
+        width: 100%;
+        background-color:rgb(51, 50, 50);
+    }
+
+   header .play img{
+    margin-left: 20rem;
+    margin-top: 1rem;
+   }
+
+   header .lecteur{
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+
+   }
+    
+    .barre{
+        float: right;
+        height: 1550px;
+        width:17%;
+        background-color: rgb(51, 50, 50);
+        
+    }
+    
+    .barre .icone{
+        height: 6.5%;
+        width: 40%;
+        background-color: bisque;
+        margin-top: 10%;
+        margin-left: 4rem;
+        border-radius: 100%; 
+    }
+    
+    .barre .icone img{
+        border-radius: 100%; 
+    }
+    
+    .blanc{
+        display: none;
+    }
+    .barre .blanc-1 a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .blanc-1 a:visited{
+        color: grey;
+    }
+
+    .blanc-1{
+        text-align: justify;
+        margin-top: 10%;
+        margin-left: 10%;
+        font-size: 25px;
+    }
+    
+    .barre .commentaire{
+        font-size:14px;
+        margin-top: 10%;
+        margin-left: -1%;
+        color: white;
+    }
+    
+    .button{
+        border: none;
+        height: 1rem;
+        width: 4rem;
+        border-radius: 100px;
+        padding-bottom: 1rem;
+        border-radius: 10px;
+    }
+    
+    .button:hover{
+        box-shadow: 1px 1px 14px;
+        background-color: blue;
+        color: red;
+    }
+    
+    .video{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    
+    .video1{
+        animation: anime1 12s infinite;
+    }
+    
+    @keyframes anime1 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+    
+    
+    
+    .video2{
+        animation: anime2 11s infinite;
+    }
+    
+    @keyframes anime2 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+    
+    .video3{
+        animation: anime2 10s infinite;
+    }
+    
+    @keyframes anime3 {
+        0%{
+            transform: translate(0,0);
+            opacity: 100%;
+        }
+        50%{
+            transform: translate(0,1040px);
+            opacity:0%;
+            }
+    
+        100%{
+            transform: translate(0,0);
+            opacity: 0%;
+        }
+    }
+
+    .gaz{
+        height: 15rem;
+        width: 20rem;
+        border: 1px solid black;
+    }
+
+    .num1{
+        margin-top: 3rem;
+        margin-left: 2rem;
+        display: flex;
+    }
+
+    .num1 .num-1{
+        margin-left: 2rem;
+    }
+
+    .num1 .num-1 h5,h1,h3{
+        margin-left: 2px;
+        color: white;
+    }
+
+    .nouveau{
+        margin-left: 2rem;
+        margin-top: 1rem;
+        margin-bottom: -1rem;
+
+
+
+    }
+
+
+
+    hr{
+        margin-top: 1rem;
+        height: 0.5rem;
+        background-color: black;
+        border: none;
+    }
+
+    .barre .blanc-1 a{
+        text-decoration: none;
+        color: white;
+        display: flex;
+        margin-top: 1rem; 
+    }
+
+    .barre .blanc-1 a img{
+        margin-right: 1rem;
+      
+    }
+    .barre .blanc-1 a:hover{
+        color:black;
+    }
+
+    .carre{
+    
+        width: 70%;
+        height: 100px;
+        background-color: gray;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .mise{
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+
+
+}

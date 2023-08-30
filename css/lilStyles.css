@@ -486,6 +486,9 @@
         margin-right: 1rem;
       
     }
+    .barre .blanc a:hover{
+        color:black;
+    }
     .lil{
         color: white;
         font-weight: bold;
@@ -812,6 +815,11 @@
         display: flex;
         margin-top: 1rem; 
     }
+
+    .barre .blanc a:hover{
+        color:black;
+    }
+
 
     .barre .blanc a img{
         margin-right: 1rem;

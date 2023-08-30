@@ -515,6 +515,9 @@ margin-top: 1.5rem;
         margin-right: 1rem;
       
     }
+    .barre .blanc a:hover{
+        color:black;
+    }
 
 
 
@@ -931,6 +934,12 @@ margin-top: 1.5rem;
             display: flex;
             margin-top: 1rem; 
         }
+
+        .barre .blanc a:hover{
+            color:black;
+        }
+
+        
     
         .barre .blanc a img{
             margin-right: 1rem;

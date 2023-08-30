@@ -494,6 +494,9 @@
         font-size: 25px;
         margin-top: 1rem;
     }
+    .barre .blanc a:hover{
+        color:black;
+    }
     
 }
 
@@ -817,8 +820,11 @@
 
     .barre .blanc a img{
         margin-right: 1rem;
-      
     }
+    .barre .blanc a:hover{
+        color:black;
+    }
+
     .lif{
         color: white;
         font-weight: bold;

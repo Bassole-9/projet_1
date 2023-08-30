@@ -164,6 +164,9 @@
         
 
     }
+    hr{
+        display: none;
+    }
 
     
 
@@ -353,7 +356,7 @@
     }
 
     .nouveau{
-        margin-left: 3rem;
+        margin-left: 2rem;
         margin-top: 1rem;
         margin-bottom: -1rem;
 
@@ -441,6 +444,9 @@
     .barre .blanc-1 a img{
         margin-right: 1rem;
       
+    }
+    .barre .blanc-1 a:hover{
+        color:black;
     }
 
 
@@ -637,7 +643,7 @@
     }
 
     .nouveau{
-        margin-left: 3rem;
+        margin-left: 2rem;
         margin-top: 1rem;
         margin-bottom: -1rem;
 
@@ -726,6 +732,9 @@
     .barre .blanc-1 a img{
         margin-right: 1rem;
       
+    }
+    .barre .blanc-1 a:hover{
+        color:black;
     }
 
 
